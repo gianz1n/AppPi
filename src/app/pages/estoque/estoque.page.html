@@ -1,0 +1,24 @@
+<!-- AQUI SERÁ LISTADO O PRODUTO -->
+
+<!-- Abas -->
+<ion-header>
+  <ion-toolbar>
+    <ion-segment>
+      <ion-segment-button value="estoque"  routerLink="/estoque/">
+        ESTOQUE
+      </ion-segment-button>
+      <ion-segment-button value="vendas" routerLink="/vendas/">
+        VENDAS
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<!-- Botao de add produto -->
+<ion-content>
+  <ion-fab class="add_button">
+    <ion-fab-button size="small" routerLink="/cadprodutos/">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
